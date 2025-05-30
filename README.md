@@ -92,27 +92,6 @@ The hosts file is located at:
    - "Show me information about my CPU"
    - "Check my internet connection speed"
 
-## Security Considerations
-
-- UniUI executes system commands on your machine. Only use it on trusted networks.
-- The application listens on all network interfaces (`0.0.0.0`) to allow access from other devices on your network.
-- For security reasons, consider adding firewall rules to restrict access to trusted devices.
-- Never expose this application directly to the internet.
-
-## Troubleshooting
-
-### Cannot Access from Other Devices
-
-1. Ensure the host machine's firewall allows incoming connections on port 80
-2. Verify that other devices on the network have the proper DNS configuration to resolve `uniui.local`
-3. Try accessing using the host machine's IP address directly
-
-### Command Execution Errors
-
-1. Check the application logs for specific error messages
-2. Verify that the commands being executed are supported on your operating system
-3. Ensure your user account has sufficient permissions to execute the commands
-
 ## Development
 
 ### Project Structure
@@ -131,25 +110,3 @@ UniUI-WebApp/
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This file
 ```
-
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- OpenAI for providing the API used to interpret user queries
-- Flask web framework
-- All open-source libraries used in this project
-
----
-
-Created by the UniUI Team 
