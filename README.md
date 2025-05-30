@@ -82,7 +82,7 @@ The hosts file is located at:
 
 2. Access the web interface:
    - From the host machine: http://uniui.local or http://localhost
-   - From other devices on your network: http://uniui.local or http://<host-ip-address>
+   - From other devices on your network: UniUi will provide the local network address to view
 
 3. Ask questions about your system in the chat interface:
    - "What is my IP address?"
