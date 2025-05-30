@@ -24,7 +24,7 @@ UniUI is an intuitive web application that allows users to query system informat
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/UniUI-WebApp.git
+   git clone https://github.com/calinux-py/UniUi.git
    cd UniUI-WebApp
    ```
 
