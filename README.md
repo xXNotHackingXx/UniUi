@@ -2,7 +2,7 @@
 
 UniUI is an intuitive web application that allows users to query system information through a natural language chat interface. It translates user queries into appropriate system commands and provides human-readable responses, making system administration and troubleshooting accessible to users of all technical levels.
 
-[<img src="https://github.com/calinux-py/UniUi/blob/main/uniui.png?raw=true" alt="UniUi" width="20%">](https://github.com/calinux-py/UniUi/blob/main/uniui.png)
+[<img src="https://github.com/calinux-py/UniUi/blob/main/uniui.png?raw=true" alt="UniUi" width="90%">](https://github.com/calinux-py/UniUi/blob/main/uniui.png)
 
 ## Features
 
