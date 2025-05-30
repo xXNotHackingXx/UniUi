@@ -101,6 +101,7 @@ The hosts file is located at:
 ```
 UniUI-WebApp/
 ├── app.py                     # Main application file
+├── .env                       # Configuration file for openai API
 ├── static/                    # Static assets
 │   ├── css/                   # CSS stylesheets
 │   ├── js/                    # JavaScript files
